@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-custom{
+        padding: 10px 5px !important;
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: black !important;
+        border-color: black;
+    }
+
+
+    .s1{
+        margin-top: 10px;
+        height: auto !important;
+    }
+
+    .s1 .carousel-caption{
+        letter-spacing: 3px !important;
+        line-height: normal !important;
+        padding: 23px !important;
+    }
+
+    .s2{
+        height: auto !important;
+    }
+
+    .s1 img{
+        margin-left: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+    }
+
+    .s3{
+        height: auto !important;
+        position: relative !important;
+        margin-bottom: 15px !important;
+    }
+
+    .s3 .s3-container{
+        height: auto !important;
+        position: relative !important;
+        box-sizing: border-box;
+    }
+
+    .s3 .s3-container .row{
+        height: auto !important;
+        position: relative;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+    .s4{
+        width: auto !important;
+        font-size: 100%;
+    }
+
+    .s4 h1{
+        font-size: 2rem !important;
+    }
+
+    .s4 input{
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    .s4 button{
+        width: auto !important;
+    }
+
+    .footer{
+        width: auto !important;
+        height: auto !important;
+        margin: 50px auto !important;
+        text-align: center;
+    }
+
+  }
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-custom{
+    letter-spacing: 3px;
+    height: auto;
+    padding: 0px 50px;
+    border-bottom: 1px solid gray;
+    background-color: #f5fbfd!important;
+}
+
+body .navbar-custom .logo{
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: rgba(0, 0, 0, 0.76) !important;
+    font-size: 2.5rem !important;
+}
+
+.navbar-custom a .logo:hover{
+    color: black !important;
+}
+
+.navbar-custom .logo span{
+    border: 3px solid rgba(0, 0, 0, 0.788);
+    padding: 3px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.navbar-custom ul{
+    font-size: 1.1rem;
+}
+
+.navbar-custom ul li a{
+    color: rgba(0, 0, 0, 0.842) !important;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.navbar-custom .bdg{
+    font-size: 10pt;
+    position: absolute;
+    margin-top: -5px;
+}
+
+.s1{
+    width: 100%;
+}
+
+.s1 img{
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+}
+
+.s1 #slide1{
+    background-color: #f5fafd;
+}
+
+.s1 #slide2{
+    background-color: #fcf1ed;
+}
+
+.s1 #slide3{
+    background-color: #fbf0f4;
+}
+
+.s1 .carousel-caption{
+    background-color:rgba(0, 0, 0, 0.712);
+    letter-spacing: 6px;
+    line-height: 15px;
+    padding: 40px;
+}
+
+.s1 .carousel-caption h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.s1 .carousel-caption button{
+    width: 200px;
+    background: transparent;
+    padding: 10px;
+    color: white;
+    font-size: 1.1rem;
+    border: 2px solid white;
+}
+
+.s2{
+    background-color: #fcf1ed;
+    height: 100vh;
+    
+}
+
+.s2 h1{
+    padding-top: 50px;
+}
+
+.s2 .info1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.s2 img{
+    padding: 10px;
+    min-width: 100%;
+    height: 68vh;
+    padding-bottom: 50px;
+}
+
+.s2 .imgc{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s2 .info-Img{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 60%;
+}
+
+.s2 .info-Img p{
+    text-align: center;
+    font-size: 2.2rem;
+    color: white;
+    font-weight: 800;
+}
+
+.s2 .info-Img button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: 15pt;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 0 10px 0;
+    text-shadow: 3px 2px 3px black;
+}
+
+.s3{
+    height: auto !important;
+    margin: 50px 50px 10px 50px;
+}
+
+.s3 .products{
+    flex: 1;
+    margin: 5px;
+    min-width: 280px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5fbfd;
+    position: relative;
+
+}
+
+.s3 .products img{
+    height: 80%;
+    z-index: 2;
+}
+
+.s3 .products .circle{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    background-color: white;
+    position: absolute;
+}
+
+.s3 .info-P{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.2);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.s3 .info-P:hover{
+    opacity: 1;
+}
+
+.s3 .info-P i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    transition: all 0.5s ease;
+
+}
+
+.s3 .info-P i:hover{
+    background-color: #e9f5f5;
+    transform: scale(1.1);
+}
+
+.s4{
+    background-color: #fbf0f4;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s4 .newsletter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.s4 .newsletter h1{
+    font-size: 3.4rem;
+    font-weight: 600;
+}
+
+.s4 .newsletter h3{
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.s4 .newsletter input{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 50px;
+    font-size: 1.4rem;
+}
+
+.s4 .newsletter button{
+    padding: 10px 40px;
+    display: flex;
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    flex-direction: column;
+    font-weight: 700;
+}
