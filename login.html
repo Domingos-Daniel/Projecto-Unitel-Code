@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
 
+    <script>
+      function goBack() {
+        window.history.back()
+      }
+      </script>
 
     <style>
     
@@ -40,11 +45,14 @@
             <button type="submit" class="btn btn-lg btn-secondary">Entrar</button>
           </form>
 
-          <p class="text-small">Para voltar a pagina inicial clique <a href="./index.html">Aqui</a></p>
+          <p class="text-small">Para voltar a pagina inicial clique <a href="#" type="button"  onclick="goBack()">Aqui</a></p>
     </div>
   </div>
   
 </main>
+
+
+</div>
  </body>
     <script src="./jquery/jquery-3.5.1.slim.js"></script>
     <script window.jQuery || document.write('<script src="./jquery/jquery-3.5.1.slim.js"></script>
